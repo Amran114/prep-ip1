@@ -1,0 +1,123 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: #FFC371;
+    font-family: 'Montserrat', sans-serif;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    background: green;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+li {
+    display: inline-block;
+    padding: 16px;
+    font-size: 25px;
+}
+h2 {
+    margin-top: 20px;
+}
+.say {
+    margin-left: 3rem;
+    margin-top: 3em;
+    font-size: 2.5em;
+}
+.my-name {
+    font-size: 5.5em;
+    font-weight: bold;
+    word-spacing: 0.2em;
+    letter-spacing: 0.05em;
+    font-family: 'Bree Serif', serif;
+    margin-left: 0.5em;
+}
+.my-work {
+    font-size: 3em;
+    word-spacing: 0.1em;
+    margin-left: 1.01em;
+    color: black;
+}
+button {
+    margin-left: 16px;
+    margin-top: 32px;
+    padding: 16px;
+    font-size: 0.9em;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.hiring {
+    padding: 16px;
+    margin-left: 64px;
+    background-color: blueviolet;
+}
+.about {
+    text-align: center;
+    font-size: 3em;
+    padding-top: 3em;
+}
+.about-me{
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 30px;
+    padding-top: 5px;
+}
+.portfolio {
+    text-align: center;
+    padding-top: 3em;
+}
+.container-2 {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 2em;
+}
+.item{
+    border: black solid 0.1em;
+    border: none;
+    border-radius: 1em;
+    padding: 6rem 8rem;
+    background: red;
+    text-align: center;
+}
+.item-1{
+    border: black solid 0.1em;
+    border: none;
+    border-radius: 1em;
+    padding: 6rem 8rem;
+    background: red;
+    text-align: center;
+}
+.item-2 {
+    border: black solid 0.1em;
+    border: none;
+    border-radius: 1em;
+    padding: 6rem 8rem;
+    background: red;
+    text-align: center;
+}
+.contact-amran{
+    background-color: #A39C91;
+    padding: 200px;
+    text-align: center;
+}
+input{
+    padding: 10px;
+    padding-left: 10px;
+    margin-right: 8px;
+}
+.send{
+    margin-top: 40px;
+}
+.footer {
+    display: flex;
+    justify-content: space-evenly;
+}
+.icon-size {
+    font-size: 20px;
+}
